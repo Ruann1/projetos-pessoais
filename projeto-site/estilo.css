@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.google.com/specimen/Playfair+Display');
+
+:root{
+
+    --cor0: #D5E5F2;
+    --cor1: #8FBDD9;
+    --cor2: #4E94BF;
+    --cor3: #2173A6;
+    --cor4: #03588C;
+
+    --fonte-pagina: 'Arial';
+    --fonte-padrao: 'Playfair Display';
+}
+
+*{
+    font: var(--fonte-padrao);
+}

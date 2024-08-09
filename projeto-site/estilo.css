@@ -15,5 +15,18 @@
 }
 
 *{
-    font: var(--fonte-padrao);
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(34, 31, 31);  
+    color: rgba(245, 245, 245, 0.897);
+}
+
+#titulo{
+    padding: 15px;
+    margin: 25px;
+}
+
+#textotitulo{
+    font:  100px, var(--fonte-padrao), 
+    
 }

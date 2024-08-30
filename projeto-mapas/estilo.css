@@ -39,7 +39,26 @@ header{
     padding-top: 13px;
 }
 
-#mapasprincipais{
-    width: 80%;
-    height: 25vh;
+#sessaoorincipal{
+    position: relative;
 }
+
+#mapasprincipais{
+    position: absolute;
+    top: 40%;
+    width: 94vw;
+    text-align: center;
+}
+
+#mapasprincipais a{
+    padding-left: 1em;
+    text-decoration: none;
+
+}
+
+#mapasprincipais img{
+    min-width: 10em;
+    max-width: 15em;
+    padding-left: 1em;
+}
+

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-@import url('https://fonts.google.com/specimen/Playfair+Display');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 
 :root{
     --fonte-principal: 'Playfair Display';
@@ -25,7 +26,7 @@ header{
 
 #titulo{
     color: #ce0e6e;
-    font-family: var(--fonte-arial);
+    font-family: var(--fonte-principal);
     text-align: center;
     padding-top: 15px;
     text-shadow: 1px 1px 2px #ce0d6dd2;
@@ -33,7 +34,7 @@ header{
 
 #subtitulo{
     color: aliceblue;
-    font-family: var(--fonte-arial);
+    font-family: var(--fonte-principal);
     text-align: center;
     padding-top: 13px;
 }
@@ -48,31 +49,55 @@ header{
 }
 
 #sessaoprincipal{
-    position: flex;
+    
 }
 
 #mapasprincipais{
     position: absolute;
-    top: 35%;
+    top: 25%;
     width: 100vw;
     text-align: center;
 }
 
 .geral{
     display: inline-block;
+    border: 0.1em solid #ce0d6dd2;
+    padding: 0.8em;
+    margin: 0.8em;
+    border-radius: 0.8em;
+    background-color: rgba(46, 43, 43, 0.1);
 }
 
 #mapasprincipais a{
     text-decoration: none;
     font: normal 1.2em Arial;
     color: rgba(245, 245, 245, 0.973);
+    display: block;
+    padding-top: 0.5em;
 }
 
 #mapasprincipais img{
     min-width: 10em;
     max-width: 15em;
-    padding-left: 1em;
+    border-radius: 2px;
 }
 
 
 
+#mapassecundarios{
+    position: absolute;
+    top: 60%;
+    width: 100vw;
+    text-align: center;
+}
+
+#mapassecundarios img{
+    min-width: 8em;
+    max-width: 13em;
+    border-radius: 2px;
+}
+
+#mapassecundarios a{
+    text-decoration: none;
+    font: normal 1em rgb(240, 240, 240);
+}

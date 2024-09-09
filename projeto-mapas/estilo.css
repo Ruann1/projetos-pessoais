@@ -82,13 +82,18 @@ header{
     border-radius: 2px;
 }
 
-
-
 #mapassecundarios{
     position: absolute;
-    top: 60%;
+    top: 65%;
     width: 100vw;
     text-align: center;
+}
+
+#mapassecundarios a p{
+    text-decoration: none;
+    color: white;
+    padding-top: 0.5em;
+    font-family: var(--fonte-principal);
 }
 
 #mapassecundarios img{
@@ -97,7 +102,3 @@ header{
     border-radius: 2px;
 }
 
-#mapassecundarios a{
-    text-decoration: none;
-    font: normal 1em rgb(240, 240, 240);
-}

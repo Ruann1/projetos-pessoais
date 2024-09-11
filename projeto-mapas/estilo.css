@@ -19,7 +19,8 @@ body{
 
 header{
     background-color: rgb(22, 21, 21);
-    height: 7em;
+    min-height: 7em;
+    max-height: 9.5em;
     border-bottom: 1px solid #ce0e6e;
     box-shadow: 1px 1px 3px #ce0d6dd2;
 }
@@ -36,7 +37,8 @@ header{
     color: aliceblue;
     font-family: var(--fonte-principal);
     text-align: center;
-    padding-top: 13px;
+    margin-top: 5px;
+    min
 }
 
 #barralateral{
@@ -48,17 +50,6 @@ header{
     
 }
 
-#sessaoprincipal{
-    
-}
-
-#mapasprincipais{
-    position: absolute;
-    top: 25%;
-    width: 100vw;
-    text-align: center;
-}
-
 .geral{
     display: inline-block;
     border: 0.1em solid #ce0d6dd2;
@@ -68,29 +59,44 @@ header{
     background-color: rgba(46, 43, 43, 0.1);
 }
 
-#mapasprincipais a{
-    text-decoration: none;
-    font: normal 1.2em Arial;
-    color: rgba(245, 245, 245, 0.973);
-    display: block;
-    padding-top: 0.5em;
+#sessaoprincipal{
+    margin-top: 30px;
+    text-align: center;
 }
 
+#mapasprincipais{
+    
+}
+
+#mapasprincipais a p{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding-top: 0.4em;
+    font-family: var(--fonte-principal);
+}
+
+
 #mapasprincipais img{
-    min-width: 10em;
-    max-width: 15em;
+    min-width: 8em;
+    max-width: 13em;
     border-radius: 2px;
 }
 
-#mapassecundarios{
-    position: absolute;
-    top: 65%;
-    width: 100vw;
+
+#sessaosecundaria{
     text-align: center;
+
+}
+
+
+#mapassecundarios{
+    
 }
 
 #mapassecundarios a p{
     text-decoration: none;
+    text-align: center;
     color: white;
     padding-top: 0.5em;
     font-family: var(--fonte-principal);

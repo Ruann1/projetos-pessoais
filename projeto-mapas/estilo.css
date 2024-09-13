@@ -47,7 +47,8 @@ header{
     width: 30vw;
     position: fixed;
     right: 0;
-    
+    background-color: black;
+    color: white;
 }
 
 .geral{
@@ -59,7 +60,7 @@ header{
     background-color: rgba(46, 43, 43, 0.1);
 }
 
-a:hover{
+article:hover{
     zoom: 1.01;
     translate: 0px 0px;
     animation: mymove 2s infinite;
@@ -79,7 +80,7 @@ a:hover{
     
 }
 
-#mapasprincipais a p{
+#mapasprincipais article p{
     text-decoration: none;
     text-align: center;
     color: white;
@@ -105,7 +106,7 @@ a:hover{
     
 }
 
-#mapassecundarios a p{
+#mapassecundarios article p{
     text-decoration: none;
     text-align: center;
     color: white;

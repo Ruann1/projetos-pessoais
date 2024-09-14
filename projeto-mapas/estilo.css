@@ -42,13 +42,25 @@ header{
 }
 
 #barralateral{
-    background-color: white;
-    height: 100%;
-    width: 30vw;
-    position: fixed;
-    right: 0;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    transition: 0.5s;
+}
+
+#main{
+   
+}
+
+
+.fechar{
+
+    width: 20px;
+
 }
 
 .geral{
@@ -63,7 +75,7 @@ header{
 article:hover{
     zoom: 1.01;
     translate: 0px 0px;
-    animation: mymove 2s infinite;
+    animation: mymove 2s normal;
 }
 
 @keyframes mymove {
@@ -72,7 +84,8 @@ article:hover{
 
 
 #sessaoprincipal{
-    margin-top: 30px;
+    position: relative;
+    top: 30px;
     text-align: center;
 }
 
@@ -98,7 +111,8 @@ article:hover{
 
 #sessaosecundaria{
     text-align: center;
-
+    position: relative;
+    top: 30px;
 }
 
 

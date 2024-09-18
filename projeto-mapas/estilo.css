@@ -46,15 +46,47 @@ header{
     color: white;
     height: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 1; /*sobreposição de elemento */
     top: 0;
     right: 0;
     transition: 0.5s;
     border-radius: 0.2em;
-    
+}
+
+.fechar{
+color: white;
+text-decoration: none;
+font: 2em arial normal;
+padding: 0em;
+background-color: black;
+
 }
 #main{
    
+}
+
+#conteudobarra{
+    padding: 20px;
+}
+
+#conteudobarra img{
+    max-height: 30vh;
+    max-width:  30vw;
+    border-radius: 2%;
+    display: block;
+    margin: auto;
+    padding: 0.7em;
+}
+#conteudobarra h1{
+    color: white;
+    text-align: center;
+}
+
+#conteudobarra p{
+    text-align: center;
+    text-align: justify;
+    font: normal 1em Arial;
+    margin: 0.7em 2em 0.7em 2em;
 }
 
 

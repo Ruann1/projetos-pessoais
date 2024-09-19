@@ -45,6 +45,7 @@ header{
     background-color: #800744a2;
     color: white;
     height: 100%;
+    width: 0;
     position: fixed;
     z-index: 1; /*sobreposição de elemento */
     top: 0;
@@ -56,27 +57,21 @@ header{
 .fechar{
 color: white;
 text-decoration: none;
-font: 2em arial normal;
-padding: 0em;
-background-color: black;
+font: 1.5em arial normal;
+padding: 0.1em 0.2em;
+background-color: rgba(0, 0, 0, 0.5);
 
-}
-#main{
-   
-}
-
-#conteudobarra{
-    padding: 20px;
 }
 
 #conteudobarra img{
     max-height: 30vh;
     max-width:  30vw;
-    border-radius: 2%;
+    border-radius: 5%;
     display: block;
     margin: auto;
     padding: 0.7em;
 }
+
 #conteudobarra h1{
     color: white;
     text-align: center;
@@ -89,13 +84,6 @@ background-color: black;
     margin: 0.7em 2em 0.7em 2em;
 }
 
-
-.fechar{
-
-    width: 20px;
-
-}
-
 .geral{
     display: inline-block;
     border: 0.1em solid #ce0d6dd2;
@@ -106,7 +94,7 @@ background-color: black;
 }
 
 article:hover{
-    zoom: 1.01;
+    /* zoom: 1.1; */
     translate: 0px 0px;
     animation: mymove 2s normal;
 }
@@ -115,15 +103,10 @@ article:hover{
     70% {box-shadow: 0px 0px 20px #ce0e6e} 
 }
 
-
 #sessaoprincipal{
     position: relative;
     top: 30px;
     text-align: center;
-}
-
-#mapasprincipais{
-    
 }
 
 #mapasprincipais article p{
@@ -133,7 +116,6 @@ article:hover{
     padding-top: 0.5em;
     font-family: var(--fonte-principal);
 }
-
 
 #mapasprincipais img{
     min-width: 8em;
@@ -146,11 +128,6 @@ article:hover{
     text-align: center;
     position: relative;
     top: 30px;
-}
-
-
-#mapassecundarios{
-    
 }
 
 #mapassecundarios article p{
@@ -167,7 +144,6 @@ article:hover{
     border-radius: 2px;
 }
 
-
 footer{
     text-align: center;
     margin-top: 4em;
@@ -176,4 +152,20 @@ footer{
 
 footer p {
     padding: 5px;
+}
+
+@media only screen and (max-width: 728px) {
+    #mapasprincipais img{
+        min-width: 5em;
+        max-width: 7em;
+        border-radius: 2px;
+    }
+    #mapassecundarios img{
+        min-width: 5em;
+        max-width: 7em;
+        border-radius: 2px;
+    }
+    footer p {
+        margin: 5px;
+    }
 }

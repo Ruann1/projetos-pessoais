@@ -65,15 +65,16 @@ background-color: rgba(0, 0, 0, 0.5);
 #conteudobarra img{
     max-height: 30vh;
     max-width:  30vw;
-    border-radius: 5%;
+    border-radius: 1%;
     display: block;
     margin: auto;
-    padding: 0.7em;
+    padding: 0.1em;
 }
 
 #conteudobarra h1{
     color: white;
     text-align: center;
+    padding: 0.5em;
 }
 
 #conteudobarra p{
@@ -166,5 +167,16 @@ footer p {
     }
     footer p {
         margin: 5px;
+    }
+    #barralateral{
+        background-color: #800744a2;
+        color: white;
+        height: 0;
+        width: 100%;
+        position: fixed;
+        z-index: 1; /*sobreposição de elemento*/
+        bottom: 0;
+        transition: 0.5s;
+        border-radius: 0.2em; 
     }
 }

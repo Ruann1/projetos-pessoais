@@ -1,9 +1,18 @@
+let teste = window.document.querySelector('body').matchMedia('(max-width: 728px)')
+
 function mirage(){
 
-    document.getElementById('barralateral').style.width = '600px'
+    //document.getElementById('barralateral').style.width = '600px'
 
-    document.getElementById('main').style.marginRight = '500px'
+    //document.getElementById('main').style.marginRight = '500px'
 
+    if(teste.matches){
+        document.getElementById('barralateral').style.height = '600px'
+        
+    } else{
+        document.getElementById('barralateral').style.width = '600px'
+        document.getElementById('main').style.marginRight = '500px'
+    }
     
 
     document.getElementById('conteudobarra').innerHTML = '<img src="mapas/mirage.jpg"> <h1>Mirage</h1> <p>A Mirage é um dos mapas mais icônicos de Counter-Strike: Global Offensive (CS), com uma ambientação de estilo desértico, inspirado em cidades do Oriente Médio ou Norte da África. É um mapa equilibrado e amplamente utilizado em partidas competitivas, tanto por Terroristas (T) quanto por Contra-Terroristas (CT).<p>O mapa tem dois bombsites, A e B, cada um com características distintas: Bombsite A: Localizado em uma área mais aberta, é acessado por rampas, uma varanda (Palácio) e conectores. Oferece boas oportunidades para uso de granadas de fumaça e controle com snipers (AWP). Bombsite B: É mais fechado, acessado principalmente por um corredor elevado (apps) e uma cozinha (kitchen), exigindo estratégias rápidas e precisas, com controle de utilitários sendo essencial.</p> <p>O controle do meio do mapa é um ponto-chave para a estratégia, pois dá acesso a rotas para os dois bombsites e favorece a mobilidade entre eles.Por sua complexidade e equilíbrio, o Mirage é um mapa de escolha frequente em campeonatos profissionais e é conhecido por permitir uma variedade de táticas, tanto ofensivas quanto defensivas.</p></p>'

@@ -1,4 +1,4 @@
-let teste = window.document.querySelector('body').matchMedia('(max-width: 728px)')
+let teste = window.matchMedia('(max-width: 728px)')
 
 function mirage(){
 

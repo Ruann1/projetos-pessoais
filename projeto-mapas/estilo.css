@@ -169,14 +169,9 @@ footer p {
         margin: 5px;
     }
     #barralateral{
-        background-color: #800744a2;
-        color: white;
         height: 0;
         width: 100%;
-        position: fixed;
-        z-index: 1; /*sobreposição de elemento*/
         bottom: 0;
-        transition: 0.5s;
-        border-radius: 0.2em; 
+        top: auto;
     }
 }

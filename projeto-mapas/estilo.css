@@ -41,7 +41,7 @@ header{
 }
 
 #barralateral{
-    background-color: #800744a2;
+    background-color: #800744a2; 
     color: white;
     height: 100%;
     width: 0;
@@ -154,7 +154,7 @@ footer p {
     padding: 5px;
 }
 
-@media only screen and (max-width: 728px) {
+@media only screen and (max-width: 992px) {
     #mapasprincipais img{
         min-width: 5em;
         max-width: 7em;
@@ -175,3 +175,6 @@ footer p {
         top: auto;
     }
 }
+
+
+
